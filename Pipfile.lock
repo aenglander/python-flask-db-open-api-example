@@ -1,12 +1,10 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "76998d0077c6376ae6985bdaf165ee52ced02d23b9da6646a973ba8adc5d0e5e"
+            "sha256": "021cd8c6782a3256519c072d8b4440161a43ee2736250c853561df0ba42ab1a3"
         },
         "pipfile-spec": 6,
-        "requires": {
-            "python_version": "3.7"
-        },
+        "requires": {},
         "sources": [
             {
                 "name": "pypi",
@@ -109,7 +107,6 @@
         },
         "pyrsistent": {
             "hashes": [
-                "sha256:0daa8c2fa5b7b2cc44eeec4e975a8d3948052edcd18397de8543a9277ee1baa1",
                 "sha256:3ca82748918eb65e2d89f222b702277099aca77e34843c5eb9d52451173970e2"
             ],
             "version": "==0.14.11"

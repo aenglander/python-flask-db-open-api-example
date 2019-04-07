@@ -44,6 +44,8 @@ command.*
 Running the Application
 -----------------------
 
+### Start the Server
+
 As this is a standard Flask application, just run it as any
 other flask application via the `run` command in the project
 directory. Here is an example of starting the app in develop
@@ -53,14 +55,22 @@ mode:
 FLASK_ENV=develop flask run
 ```
 
+### Interact With the Server
+
+The Flask REST+ plugin provides a Web based Swagger UI interface
+that can be accessed in the browser. If you have utilize the
+default settings for host and port, you can access the Swagger UI
+at [http://localhost:5000/](http://localhost:5000/)
+
 References
 ----------
 
-This project relies on the following libraries and modules:
+This project utilizes on the following items which can be
+investigated further should you choose:
 
 * [Flask](http://flask.pocoo.org)
 * [Flask REST+](https://flask-restplus.readthedocs.io)
 * [DB-API Interface for for SQLite](https://docs.python.org/3/library/sqlite3.htm)
-* [Pipenv](https://pipenv.readthedocs.io)
+* [Open API Specification v2 \[OAS **2**\]](https://swagger.io/docs/specification/2-0/)
 * [SQLite](https://www.sqlite.org)
-* [Open API Spedification v2 \[OAS 2\]](https://swagger.io/docs/specification/2-0/)
+* [Pipenv](https://pipenv.readthedocs.io)
